@@ -1,36 +1,36 @@
 # #PROtip=None 0 INDOOR VOICE
-# msg = str(input("enter the message :"))
-#
-# msg: str = msg.lower()
-#
-# print(f"{msg}")
-#
-# #PROBLEM SET O PLAYBACK SPEED
-# messge  = str(input ())
-#
-# messge: str = messge.replace(" ", "...")
-#
-# print (messge)
+msg = str(input("enter the message :"))
+
+msg: str = msg.lower()
+
+print(f"{msg}")
+
+#PROBLEM SET O PLAYBACK SPEED
+messge  = str(input ())
+
+messge: str = messge.replace(" ", "...")
+
+print (messge)
 from pickletools import long1
 
 
 #PROBLEM SET MAKING FACES
-# def main():
-#     msg = input()
-#
-#     result = convert (msg)
-#
-#     print (result)
-#
-# def convert(msg):
-#
-#         msg = msg.replace(":)","🙂")
-#
-#         msg = msg.replace(":(", "🙁")
-#
-#         return  msg
-#
-# main()
+def main():
+    msg = input()
+
+    result = convert (msg)
+
+    print (result)
+
+def convert(msg):
+
+        msg = msg.replace(":)","🙂")
+
+        msg = msg.replace(":(", "🙁")
+
+        return  msg
+
+main()
 
 # PROBLEM SET 0 EINSTEIN
 m = int(input("enter the value of mass i.e. m"))
